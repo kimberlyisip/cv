@@ -1,5 +1,5 @@
 body {
-    background-color: #FCFFE7;
+    background-color: #e7ffed;
 }
 
 hr {
@@ -23,7 +23,64 @@ h3 {
 
 table {
     align-self: center;
+    
+}
 
+td {
+    padding: 10px;
+}
+
+h4:hover {
+    background-color: peru;
+    width: 35%;
+}
+
+div {
+    max-width: 50%;
+    max-width: 50%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #f17184;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #EB455F;
+}
+
+.contact-form {
+    max-width: 60%;
+    margin: auto;
+    background-color: #bcd8de;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
 }
 
 .center {
